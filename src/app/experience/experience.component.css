@@ -1,0 +1,31 @@
+.example-card {
+    width: 45%;
+    height: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+  }
+
+  @media (max-width: 700px) {
+    .example-card {
+        width: 80%;
+        max-height: 20%;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+  }
+
+  @media (max-width: 750px) {
+    .example-card {
+        width: 72%;
+        max-height: 20%;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+  }
+
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+  
